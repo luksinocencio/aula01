@@ -11,7 +11,7 @@ extension Pessoa: ExpressibleByStringLiteral {
 }
 
 extension Pessoa: ExpressibleByIntegerLiteral {
-    public init(integerLiteral value: Int) {
+    public init(intLiteral value: Int) {
         self.nome = ""
         self.idade = value
     }
